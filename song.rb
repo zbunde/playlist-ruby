@@ -1,10 +1,9 @@
 class Song
+     attr_accessor  :title, :length
 
-  attr_reader :title, :length
-
-  def initialize(title, length)
-    @title = title
-    @length = length
-  end
+    def initialize(title, length)
+        @title = title
+        @length = length
+    end
 
 end
